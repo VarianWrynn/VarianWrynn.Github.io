@@ -45,7 +45,7 @@ const resource = [
 const allowedDomains = [
   
 
-  '',
+  'varianwrynn.github.io/',
 
   'fonts.gstatic.com',
   'fonts.googleapis.com',
