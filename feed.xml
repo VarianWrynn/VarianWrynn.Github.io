@@ -4,7 +4,7 @@
   <id>https://varianwrynn.github.io/</id>
   <title>Lee.Wang</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-08-05T15:35:04+08:00</updated>
+  <updated>2021-08-05T16:27:40+08:00</updated>
   <author>
     <name>Varian.Wrynn</name>
     <uri>https://varianwrynn.github.io/</uri>
@@ -261,7 +261,7 @@ git cherry-pick命令的作用，就是将指定的提交（commit）应用于�
     <link href="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartA/" rel="alternate" type="text/html" title="Github入门笔记-PartA" />
     <published>2021-07-31T12:06:43+08:00</published>
   
-    <updated>2021-07-31T12:06:43+08:00</updated>
+    <updated>2021-08-06T00:25:00+08:00</updated>
   
     <id>https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartA/</id>
     <content src="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartA/" />
