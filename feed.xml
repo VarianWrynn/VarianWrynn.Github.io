@@ -4,7 +4,7 @@
   <id>https://varianwrynn.github.io/</id>
   <title>Lee.Wang</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-08-05T14:53:37+08:00</updated>
+  <updated>2021-08-05T15:30:12+08:00</updated>
   <author>
     <name>Varian.Wrynn</name>
     <uri>https://varianwrynn.github.io/</uri>
@@ -20,14 +20,72 @@
 
   
   <entry>
-    <title>Github入门笔记-PartD Git Merge 参数解释</title>
-    <link href="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge-%E5%8F%82%E6%95%B0%E8%A7%A3%E9%87%8A/" rel="alternate" type="text/html" title="Github入门笔记-PartD Git Merge 参数解释" />
+    <title>Github入门笔记-PartF-- Git Ignore</title>
+    <link href="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartF-Git_Ignore/" rel="alternate" type="text/html" title="Github入门笔记-PartF-- Git Ignore" />
+    <published>2021-08-05T12:06:43+08:00</published>
+  
+    <updated>2021-08-05T12:06:43+08:00</updated>
+  
+    <id>https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartF-Git_Ignore/</id>
+    <content src="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartF-Git_Ignore/" />
+    <author>
+      <name>Lee</name>
+    </author>
+
+  
+    
+    <category term="技术" />
+    
+    <category term="Github" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      How to add Gitignore on Visual Studio
+
+
+  Github入门笔记-PartF  Git Ignore的添加
+    
+      Git-ignore in VS2019
+        
+          Using Visual Studio to add a .gitignore
+          Stop tracking files that should be ignored
+          Wrapping Up
+        
+      
+      . References &amp;amp; Connection
+      . 文档修订记录
+    
+  
+
+
+Git-ignore in VS2019
+
+Using Visual Studio to add a .gitignore
+
+Open Visual Studi...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Github入门笔记-PartD--Git Merge</title>
+    <link href="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge/" rel="alternate" type="text/html" title="Github入门笔记-PartD--Git Merge" />
     <published>2021-08-03T12:06:43+08:00</published>
   
     <updated>2021-08-03T12:06:43+08:00</updated>
   
-    <id>https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge-%E5%8F%82%E6%95%B0%E8%A7%A3%E9%87%8A/</id>
-    <content src="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge-%E5%8F%82%E6%95%B0%E8%A7%A3%E9%87%8A/" />
+    <id>https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge/</id>
+    <content src="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge/" />
     <author>
       <name>Lee</name>
     </author>
@@ -245,46 +303,6 @@
 1. 基本用法
 
 git cherry-pick命令的作用，就是将指定的提交（commit）应用于其他分支...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Enable Google Page Views</title>
-    <link href="https://varianwrynn.github.io/posts/enable-google-pv/" rel="alternate" type="text/html" title="Enable Google Page Views" />
-    <published>2021-01-04T07:32:00+08:00</published>
-  
-    <updated>2021-06-30T21:01:25+08:00</updated>
-  
-    <id>https://varianwrynn.github.io/posts/enable-google-pv/</id>
-    <content src="https://varianwrynn.github.io/posts/enable-google-pv/" />
-    <author>
-      <name>Dinesh Prasanth Moluguwan Krishnamoorthy</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This post is to enable Page Views on the Chirpy theme based blog that you just built. This requires technical knowledge and it’s recommended to keep the google_analytics.pv.* empty unless you have a good reason. If your website has low traffic, the page views count would discourage you to write more blogs. With that said, let’s start with the setup.
-
-Set up Google Analytics
-
-Create GA account a...
     </summary>
   
 

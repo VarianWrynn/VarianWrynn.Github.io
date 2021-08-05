@@ -1,8 +1,23 @@
 [
   
   {
-    "title": "Github入门笔记-PartD Git Merge 参数解释",
-    "url": "/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge-%E5%8F%82%E6%95%B0%E8%A7%A3%E9%87%8A/",
+    "title": "Github入门笔记-PartF-- Git Ignore",
+    "url": "/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartF-Git_Ignore/",
+    "categories": "技术, Github",
+    "tags": "GitHub, GitHub 101, GitHub 漫游指南, Git工作流程, Github入门笔记",
+    "date": "2021-08-05 12:06:43 +0800",
+    
+
+
+
+
+
+    "snippet": "How to add Gitignore on Visual Studio  Github入门笔记-PartF  Git Ignore的添加          Git-ignore in VS2019                  Using Visual Studio to add a .gitignore          Stop tracking files that should be ignored          Wrapping Up                    . References &amp;amp; Connection      . 文档修订记录..."
+  },
+  
+  {
+    "title": "Github入门笔记-PartD--Git Merge",
+    "url": "/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge/",
     "categories": "技术, Github",
     "tags": "GitHub, GitHub 101, GitHub 漫游指南, Git工作流程, Github入门笔记",
     "date": "2021-08-03 12:06:43 +0800",
