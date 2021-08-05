@@ -4,7 +4,7 @@
   <id>https://varianwrynn.github.io/</id>
   <title>Lee.Wang</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-08-04T14:59:58+08:00</updated>
+  <updated>2021-08-05T12:08:01+08:00</updated>
   <author>
     <name>Varian.Wrynn</name>
     <uri>https://varianwrynn.github.io/</uri>
@@ -20,11 +20,126 @@
 
   
   <entry>
+    <title>Github入门笔记-PartB</title>
+    <link href="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartB/" rel="alternate" type="text/html" title="Github入门笔记-PartB" />
+    <published>2021-08-01T12:06:43+08:00</published>
+  
+    <updated>2021-08-01T12:06:43+08:00</updated>
+  
+    <id>https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartB/</id>
+    <content src="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartB/" />
+    <author>
+      <name>Lee</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+    <category term="读书笔记组" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      [toc]
+
+这篇是Github入门笔记的第二部分，原先的文章章节太长导致马克飞象和Evernote之间的同步比较慢，所以拆分成两篇。
+
+
+  Github入门笔记-PartB
+    
+      7.  完整命令参考
+        
+          Pull request on Github
+        
+      
+      8. 从远程仓库获取
+        
+          8.1 git clone——获取远程仓库
+          8.2 git pull -- 获取最新的远程仓库分支
+        
+      
+      9. Github日常操作遇到问题记录
+        
+          9.1 Git Clone之后提示无仓库信息
+          9.2 为什么做了大量代码调整，Github上却只有一个commit?
+  ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Github入门笔记-PartA</title>
+    <link href="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartA/" rel="alternate" type="text/html" title="Github入门笔记-PartA" />
+    <published>2021-08-01T12:06:43+08:00</published>
+  
+    <updated>2021-08-01T12:06:43+08:00</updated>
+  
+    <id>https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartA/</id>
+    <content src="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartA/" />
+    <author>
+      <name>Lee</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+    <category term="读书笔记组" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  图中只显示了一般的使用流程。实际上，所有仓库之间都可以进行 push 和 pull。即便不通过 GitHub，开发者 A 也可以直接向开发者 B 的仓库进行 push 或 pull。因此在使用前如果不事先制定规范，初学者往往会搞不清最新的源代码保存在哪里，导致开发失去控制。不过不用担心，只要各位随着本书的讲解亲自动手尝试，想掌握要领并不是一件难事。
+
+
+
+  Github入门笔记-PartA
+    
+      1. 为什么Github受欢迎
+      2. 流程描述
+        
+          2.1 fork vs. clone
+          2.2 小青的解释
+          2.3 工作区/暂存区/仓库/远程仓库/快照
+        
+      
+      3. Developers化学反应- Pull Request
+        
+ ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Github入门笔记-PartC-cherry-pick</title>
     <link href="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/" rel="alternate" type="text/html" title="Github入门笔记-PartC-cherry-pick" />
-    <published>2021-08-04T14:06:43+08:00</published>
+    <published>2021-05-07T14:06:43+08:00</published>
   
-    <updated>2021-08-04T14:06:43+08:00</updated>
+    <updated>2021-05-07T14:06:43+08:00</updated>
   
     <id>https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/</id>
     <content src="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/" />
@@ -155,100 +270,6 @@ Create GA account a...
 Generate the favicon
 
 Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click button Select your Favicon image ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Getting Started</title>
-    <link href="https://varianwrynn.github.io/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
-    <published>2019-08-09T20:55:00+08:00</published>
-  
-    <updated>2021-07-22T01:30:12+08:00</updated>
-  
-    <id>https://varianwrynn.github.io/posts/getting-started/</id>
-    <content src="https://varianwrynn.github.io/posts/getting-started/" />
-    <author>
-      <name>Cotes Chung</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Prerequisites
-
-Follow the Jekyll Docs to complete the installation of Ruby, RubyGems, Jekyll and Bundler. Please note that the version of Ruby must meet the requirements of the theme on RubyGems.org.
-
-Installation
-
-There are two ways to get the theme:
-
-
-  Install from RubyGems - Easy to update, isolate irrelevant project files so you can focus on writing.
-  Fork on GitHub - Convenient for custo...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Writing a New Post</title>
-    <link href="https://varianwrynn.github.io/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
-    <published>2019-08-08T14:10:00+08:00</published>
-  
-    <updated>2021-06-30T21:01:25+08:00</updated>
-  
-    <id>https://varianwrynn.github.io/posts/write-a-new-post/</id>
-    <content src="https://varianwrynn.github.io/posts/write-a-new-post/" />
-    <author>
-      <name>Cotes Chung</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Naming and Path
-
-Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts/ of the root directory. Please note that the EXTENSION must be one of md and markdown.
-
-Front Matter
-
-Basically, you need to fill the Front Matter as below at the top of the post:
-
----
-title: TITLE
-date: YYYY-MM-DD HH:MM:SS +/-TTTT
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
-tags: [TAG]     # TAG names s...
     </summary>
   
 

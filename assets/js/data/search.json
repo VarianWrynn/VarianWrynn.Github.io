@@ -1,11 +1,41 @@
 [
   
   {
+    "title": "Github入门笔记-PartB",
+    "url": "/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartB/",
+    "categories": "Blogging, Tutorial, 读书笔记组",
+    "tags": "GitHub, GitHub 101, GitHub 漫游指南, Git工作流程, Github入门笔记",
+    "date": "2021-08-01 12:06:43 +0800",
+    
+
+
+
+
+
+    "snippet": "[toc]这篇是Github入门笔记的第二部分，原先的文章章节太长导致马克飞象和Evernote之间的同步比较慢，所以拆分成两篇。  Github入门笔记-PartB          7.  完整命令参考                  Pull request on Github                    8. 从远程仓库获取                  8.1 git clone——获取远程仓库          8.2 git pull -- 获取最新的远程仓库分支                    9. Github日常操作遇到问题记录         ..."
+  },
+  
+  {
+    "title": "Github入门笔记-PartA",
+    "url": "/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartA/",
+    "categories": "Blogging, Tutorial, 读书笔记组",
+    "tags": "GitHub, GitHub 101, GitHub 漫游指南, Git工作流程, Github入门笔记",
+    "date": "2021-08-01 12:06:43 +0800",
+    
+
+
+
+
+
+    "snippet": "  图中只显示了一般的使用流程。实际上，所有仓库之间都可以进行 push 和 pull。即便不通过 GitHub，开发者 A 也可以直接向开发者 B 的仓库进行 push 或 pull。因此在使用前如果不事先制定规范，初学者往往会搞不清最新的源代码保存在哪里，导致开发失去控制。不过不用担心，只要各位随着本书的讲解亲自动手尝试，想掌握要领并不是一件难事。  Github入门笔记-PartA          1. 为什么Github受欢迎      2. 流程描述                  2.1 fork vs. clone          2.2 小青的解释         ..."
+  },
+  
+  {
     "title": "Github入门笔记-PartC-cherry-pick",
     "url": "/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/",
     "categories": "Blogging, Tutorial, 读书笔记组",
     "tags": "GitHub, GitHub 101, GitHub 漫游指南, Git工作流程, 阮一峰, Github入门笔记",
-    "date": "2021-08-04 14:06:43 +0800",
+    "date": "2021-05-07 14:06:43 +0800",
     
 
 
@@ -43,21 +73,6 @@
 
 
     "snippet": "The favicons of Chirpy are placed in the directory assets/img/favicons/. You may need to replace them with your own. The following sections will guide you how to create and replace the default favicons.Generate the faviconPrepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, a..."
-  },
-  
-  {
-    "title": "Getting Started",
-    "url": "/posts/getting-started/",
-    "categories": "Blogging, Tutorial",
-    "tags": "getting started",
-    "date": "2019-08-09 20:55:00 +0800",
-    
-
-
-
-
-
-    "snippet": "PrerequisitesFollow the Jekyll Docs to complete the installation of Ruby, RubyGems, Jekyll and Bundler. Please note that the version of Ruby must meet the requirements of the theme on RubyGems.org.InstallationThere are two ways to get the theme:  Install from RubyGems - Easy to update, isolate ir..."
   },
   
   {
