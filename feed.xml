@@ -4,7 +4,7 @@
   <id>https://varianwrynn.github.io/</id>
   <title>Lee.Wang</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-08-05T13:39:40+08:00</updated>
+  <updated>2021-08-05T14:42:09+08:00</updated>
   <author>
     <name>Varian.Wrynn</name>
     <uri>https://varianwrynn.github.io/</uri>
@@ -17,6 +17,67 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Github入门笔记-PartD  Git Merge 参数解释</title>
+    <link href="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge-%E5%8F%82%E6%95%B0%E8%A7%A3%E9%87%8A/" rel="alternate" type="text/html" title="Github入门笔记-PartD  Git Merge 参数解释" />
+    <published>2021-08-03T12:06:43+08:00</published>
+  
+    <updated>2021-08-03T12:06:43+08:00</updated>
+  
+    <id>https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge-%E5%8F%82%E6%95%B0%E8%A7%A3%E9%87%8A/</id>
+    <content src="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge-%E5%8F%82%E6%95%B0%E8%A7%A3%E9%87%8A/" />
+    <author>
+      <name>Lee</name>
+    </author>
+
+  
+    
+    <category term="技术" />
+    
+    <category term="Github" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      摘录：《Github入门与实践》 4.2章节。 Github入门笔记， Git Merge的参数解释。
+
+
+  Github入门笔记-PartD  Git Merge 参数解释
+    
+      1. 基本操作
+      2.  Git 合并时 --no-ff 的作用
+      3. 小结
+      4. 相关问题
+        
+          Pulling without specifying how to reconcile divergent branches is discouraged
+        
+      
+      5. References &amp;amp; Connection
+      6. 文档修订记录
+    
+  
+
+
+1. 基本操作
+
+
+  摘录：《Github入门与实践》 4.2章节。
+
+
+分支 feature-A 已经实现完毕...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -224,46 +285,6 @@ git cherry-pick命令的作用，就是将指定的提交（commit）应用于�
 Set up Google Analytics
 
 Create GA account a...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Customize the Favicon</title>
-    <link href="https://varianwrynn.github.io/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
-    <published>2019-08-11T00:34:00+08:00</published>
-  
-    <updated>2021-04-29T19:50:23+08:00</updated>
-  
-    <id>https://varianwrynn.github.io/posts/customize-the-favicon/</id>
-    <content src="https://varianwrynn.github.io/posts/customize-the-favicon/" />
-    <author>
-      <name>Cotes Chung</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      The favicons of Chirpy are placed in the directory assets/img/favicons/. You may need to replace them with your own. The following sections will guide you how to create and replace the default favicons.
-
-Generate the favicon
-
-Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click button Select your Favicon image ...
     </summary>
   
 

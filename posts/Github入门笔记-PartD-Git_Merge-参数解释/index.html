@@ -34,27 +34,27 @@
 
   <!-- Begin Jekyll SEO tag v2.7.1 -->
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Github入门笔记-PartC-cherry-pick" />
-<meta name="author" content="Lee （摘自 阮一峰的博客）" />
+<meta property="og:title" content="Github入门笔记-PartD Git Merge 参数解释" />
+<meta name="author" content="Lee" />
 <meta property="og:locale" content="zh_CN" />
-<meta name="description" content="Github入门笔记-PartC-cherry-pick" />
-<meta property="og:description" content="Github入门笔记-PartC-cherry-pick" />
-<link rel="canonical" href="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/" />
-<meta property="og:url" content="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/" />
+<meta name="description" content="摘录：《Github入门与实践》 4.2章节。 Github入门笔记， Git Merge的参数解释。" />
+<meta property="og:description" content="摘录：《Github入门与实践》 4.2章节。 Github入门笔记， Git Merge的参数解释。" />
+<link rel="canonical" href="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge-%E5%8F%82%E6%95%B0%E8%A7%A3%E9%87%8A/" />
+<meta property="og:url" content="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge-%E5%8F%82%E6%95%B0%E8%A7%A3%E9%87%8A/" />
 <meta property="og:site_name" content="Lee.Wang" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-05-07T14:06:43+08:00" />
+<meta property="article:published_time" content="2021-08-03T12:06:43+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Github入门笔记-PartC-cherry-pick" />
+<meta property="twitter:title" content="Github入门笔记-PartD Git Merge 参数解释" />
 <meta name="twitter:site" content="@twitter_username" />
-<meta name="twitter:creator" content="@Lee （摘自 阮一峰的博客）" />
+<meta name="twitter:creator" content="@Lee" />
 <meta name="google-site-verification" content="google_meta_tag_verification" />
 <script type="application/ld+json">
-{"headline":"Github入门笔记-PartC-cherry-pick","dateModified":"2021-05-07T14:06:43+08:00","datePublished":"2021-05-07T14:06:43+08:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/"},"url":"https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/","author":{"@type":"Person","name":"Lee （摘自 阮一峰的博客）"},"description":"Github入门笔记-PartC-cherry-pick","@context":"https://schema.org"}</script>
+{"headline":"Github入门笔记-PartD Git Merge 参数解释","dateModified":"2021-08-03T12:06:43+08:00","datePublished":"2021-08-03T12:06:43+08:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge-%E5%8F%82%E6%95%B0%E8%A7%A3%E9%87%8A/"},"url":"https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge-%E5%8F%82%E6%95%B0%E8%A7%A3%E9%87%8A/","author":{"@type":"Person","name":"Lee"},"description":"摘录：《Github入门与实践》 4.2章节。 Github入门笔记， Git Merge的参数解释。","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Github入门笔记-PartC-cherry-pick | Lee.Wang
+  <title>Github入门笔记-PartD  Git Merge 参数解释 | Lee.Wang
   </title>
 
   <!--
@@ -431,7 +431,7 @@
         
 
           
-            <span>Github入门笔记-PartC-cherry-pick</span>
+            <span>Github入门笔记-PartD  Git Merge 参数解释</span>
           
 
         
@@ -553,6 +553,84 @@
       
 
     
+
+    
+
+  
+    
+
+    
+    
+    
+
+    
+      
+      
+
+      
+
+      
+
+    
+      
+      
+
+      
+
+      
+
+    
+      
+      
+
+      
+
+      
+
+    
+      
+      
+
+      
+
+      
+
+    
+
+    
+
+  
+    
+
+    
+    
+    
+
+    
+      
+      
+
+      
+
+      
+
+    
+      
+      
+
+      
+
+      
+
+    
+      
+      
+
+      
+
+      
+
+    
       
       
 
@@ -587,13 +665,13 @@
 
     <div class="post pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4">
 
-      <h1 data-toc-skip>Github入门笔记-PartC-cherry-pick</h1>
+      <h1 data-toc-skip>Github入门笔记-PartD  Git Merge 参数解释</h1>
 
       <div class="post-meta text-muted d-flex flex-column">
         <!-- Published date and author -->
         <div>
           <span class="semi-bold">
-            Lee （摘自 阮一峰的博客）
+            Lee
           </span>
           
           <!--
@@ -612,8 +690,8 @@
   
     data-toggle="tooltip"
     data-placement="bottom"
-    title="2021-05-07, 14:06 +0800"
-  >05-07<i class="unloaded">2021-05-07T14:06:43+08:00</i>
+    title="2021-08-03, 12:06 +0800"
+  >08-03<i class="unloaded">2021-08-03T12:06:43+08:00</i>
 </span>
 
         </div>
@@ -642,7 +720,7 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="1325 字">7 分钟阅读</span>
+  title="1222 字">6 分钟阅读</span>
 
 
           <!-- page views -->
@@ -656,194 +734,199 @@
 
         
 
-        <h1 id="github入门笔记-partc-cherry-pick">Github入门笔记-PartC-cherry-pick</h1>
-
-<p>对于多分支的代码库，将代码从一个分支转移到另一个分支是常见需求。</p>
-
-<p>这时分两种情况。一种情况是，你需要另一个分支的所有代码变动，那么就采用合并（<code class="language-plaintext highlighter-rouge">git merge</code>）。另一种情况是，你只需要部分代码变动（某几个提交），这时可以采用 <code class="language-plaintext highlighter-rouge">Cherry pick</code>。</p>
+        <p>摘录：《Github入门与实践》 4.2章节。 Github入门笔记， Git Merge的参数解释。</p>
 
 <ul>
-  <li><a href="#github入门笔记-partc--git-cherry-pick-教程">Github入门笔记-PartC  git cherry-pick 教程</a>
+  <li><a href="#github入门笔记-partd--git-merge-参数解释">Github入门笔记-PartD  Git Merge 参数解释</a>
     <ul>
-      <li><a href="#1-基本用法">1. 基本用法</a></li>
-      <li><a href="#2-转移多个提交">2. 转移多个提交</a></li>
-      <li><a href="#3-配置项">3. 配置项</a></li>
-      <li><a href="#4-代码冲突">4. 代码冲突</a></li>
-      <li><a href="#5-移到另一个代码库">5. 移到另一个代码库</a></li>
-      <li><a href="#6-references--connection">6. References &amp; Connection</a></li>
-      <li><a href="#7-文档修订记录">7. 文档修订记录</a></li>
+      <li><a href="#1-基本操作">1. 基本操作</a></li>
+      <li><a href="#2--git-合并时---no-ff-的作用">2.  Git 合并时 --no-ff 的作用</a></li>
+      <li><a href="#3-小结">3. 小结</a></li>
+      <li><a href="#4-相关问题">4. 相关问题</a>
+        <ul>
+          <li><a href="#pulling-without-specifying-how-to-reconcile-divergent-branches-is-discouraged">Pulling without specifying how to reconcile divergent branches is discouraged</a></li>
+        </ul>
+      </li>
+      <li><a href="#5-references--connection">5. References &amp; Connection</a></li>
+      <li><a href="#6-文档修订记录">6. 文档修订记录</a></li>
     </ul>
   </li>
 </ul>
 
-<p><img data-proofer-ignore data-src="/assets/img/1589526839871.png" alt="@600x0" class="img-responsive" /></p>
+<h2 id="1-基本操作">1. 基本操作</h2>
 
-<h2 id="1-基本用法">1. 基本用法</h2>
+<blockquote>
+  <p>摘录：《Github入门与实践》 4.2章节。</p>
+</blockquote>
 
-<p><code class="language-plaintext highlighter-rouge">git cherry-pick</code>命令的作用，就是将指定的提交（commit）应用于其他分支。</p>
-
-<div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ git cherry-pick &lt;commitHash&gt;
-</pre></td></tr></tbody></table></code></div></div>
-
-<p>上面命令就会将指定的提交<code class="language-plaintext highlighter-rouge">commitHash</code>，应用于当前分支。这会在当前分支产生一个新的提交，当然它们的哈希值会不一样。</p>
-
-<p>举例来说，代码仓库有<code class="language-plaintext highlighter-rouge">master</code>和<code class="language-plaintext highlighter-rouge">feature</code>两个分支。</p>
+<p>分支 feature-A 已经实现完毕，想要将它合并到主干分支 master 中。首先切换到 master 分支。</p>
 
 <div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-3
-</pre></td><td class="rouge-code"><pre>a - b - c - d   Master
-     \
-       e - f - g Feature
+</pre></td><td class="rouge-code"><pre>$ git checkout master
+Switched to branch 'master'
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>现在将提交<code class="language-plaintext highlighter-rouge">f</code>应用到<code class="language-plaintext highlighter-rouge">master</code>分支。</p>
+<p>然后合并 feature-A 分支。为了在历史记录中明确记录下本次分支合并，我们需要创建合并提交。因此，在合并时加上 –no-ff参数。</p>
 
-<div lang="python" class="language-python highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ git merge --no-ff feature-A
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>随后编辑器会启动，用于录入合并提交的信息。</p>
+
+<div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
 5
-</pre></td><td class="rouge-code"><pre><span class="c1"># 切换到 master 分支
-</span><span class="err">$</span> <span class="n">git</span> <span class="n">checkout</span> <span class="n">master</span>
-
-<span class="c1"># Cherry pick 操作
-</span><span class="err">$</span> <span class="n">git</span> <span class="n">cherry</span><span class="o">-</span><span class="n">pick</span> <span class="n">f</span>
+6
+7
+</pre></td><td class="rouge-code"><pre>Merge branch 'feature-A'
+    　
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>上面的操作完成以后，代码库就变成了下面的样子。</p>
+<p>默认信息中（Merge branch ‘feature-A’）已经包含了是从 feature-A 分支合并过来的相关内容，所以可不必做任何更改。将编辑器中显示的内容保存，关闭编辑器，然后</p>
+
+<p>就会看到下面的结果。</p>
 
 <div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
-</pre></td><td class="rouge-code"><pre>a - b - c - d - f   Master
-     \
-       e - f - g Feature
+</pre></td><td class="rouge-code"><pre>Merge made by the 'recursive' strategy.
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>从上面可以看到，<code class="language-plaintext highlighter-rouge">master</code>分支的末尾增加了一个提交<code class="language-plaintext highlighter-rouge">f</code>。</p>
+<p>这样一来，feature-A 分支的内容就合并到 master 分支中了。</p>
 
-<p><code class="language-plaintext highlighter-rouge">git cherry-pick</code>命令的参数，不一定是提交的哈希值，分支名也是可以的，表示转移该分支的最新提交。</p>
+<h2 id="2--git-合并时-no-ff-的作用">2.  Git 合并时 –no-ff 的作用</h2>
 
-<div lang="nginx" class="language-nginx highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ <span class="k">git</span> <span class="s">cherry-pick</span> <span class="s">feature</span>
-</pre></td></tr></tbody></table></code></div></div>
-
-<p>上面代码表示将<code class="language-plaintext highlighter-rouge">feature</code>分支的最近一次提交，转移到当前分支。</p>
-
-<h2 id="2-转移多个提交">2. 转移多个提交</h2>
-<p><strong>Cherry pick</strong> 支持一次转移多个提交。</p>
+<p>在许多介绍 Git 工作流的文章里，都会推荐在合并分支时，加上 <code class="language-plaintext highlighter-rouge">--no-ff</code> 参数：</p>
 
 <div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ git cherry-pick &lt;HashA&gt; &lt;HashB&gt;
+2
+</pre></td><td class="rouge-code"><pre>$ git checkout develop
+$ git merge --no-ff feature
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>上面的命令将 <strong>A</strong> 和 <strong>B</strong> 两个提交应用到当前分支。这会在当前分支生成两个对应的新提交。</p>
+<p><code class="language-plaintext highlighter-rouge">--no-ff</code> 在这的作用是禁止快进式合并。</p>
 
-<p>如果想要转移一系列的连续提交，可以使用下面的简便语法。</p>
-
-<div lang="nginx" class="language-nginx highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ <span class="k">git</span> <span class="s">cherry-pick</span> <span class="s">A..B</span> 
-</pre></td></tr></tbody></table></code></div></div>
-
-<p>上面的命令可以转移从 <strong>A</strong> 到 <strong>B</strong> 的所有提交。它们必须按照正确的顺序放置：提交 <strong>A</strong> 必须早于提交 <strong>B</strong>，否则命令将失败，但不会报错。</p>
-
-<p>注意，使用上面的命令，提交 <strong>A</strong> 将不会包含在 <code class="language-plaintext highlighter-rouge">Cherry pick</code> 中。如果要包含提交 <strong>A</strong>，可以使用下面的语法：</p>
-
-<div lang="nginx" class="language-nginx highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ <span class="k">git</span> <span class="s">cherry-pick</span> <span class="s">A^..B</span> 
-</pre></td></tr></tbody></table></code></div></div>
-
-<h2 id="3-配置项">3. 配置项</h2>
-<p><code class="language-plaintext highlighter-rouge">git cherry-pick</code>命令的常用配置项如下。</p>
-
-<p>（1）<code class="language-plaintext highlighter-rouge">-e</code>，<code class="language-plaintext highlighter-rouge">--edit</code></p>
-
-<p>打开外部编辑器，编辑提交信息。</p>
-
-<p>（2）<code class="language-plaintext highlighter-rouge">-n</code>，<code class="language-plaintext highlighter-rouge">--no-commit</code></p>
-
-<p>只更新工作区和暂存区，不产生新的提交。</p>
-
-<p>（3）<code class="language-plaintext highlighter-rouge">-x</code></p>
-
-<p>在提交信息的末尾追加一行<code class="language-plaintext highlighter-rouge">(cherry picked from commit ...)</code>，方便以后查到这个提交是如何产生的。</p>
-
-<p>（4）<code class="language-plaintext highlighter-rouge">-s</code>，<code class="language-plaintext highlighter-rouge">--signoff</code></p>
-
-<p>在提交信息的末尾追加一行操作者的签名，表示是谁进行了这个操作。</p>
-
-<p>（5）<code class="language-plaintext highlighter-rouge">-m parent-number</code>，<code class="language-plaintext highlighter-rouge">--mainline parent-number</code></p>
-
-<p>如果原始提交是一个合并节点，来自于两个分支的合并，那么 Cherry pick 默认将失败，因为它不知道应该采用哪个分支的代码变动。</p>
-
-<p><code class="language-plaintext highlighter-rouge">-m</code>配置项告诉 Git，应该采用哪个分支的变动。它的参数<code class="language-plaintext highlighter-rouge">parent-number</code>是一个从<code class="language-plaintext highlighter-rouge">1</code>开始的整数，代表原始提交的父分支编号。</p>
+<p>Git 合并两个分支时，如果顺着一个分支走下去可以到达另一个分支的话，那么 Git 在合并两者时，只会简单地把指针右移，叫做“快进”（fast-forward），比如下图：</p>
 
 <div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ git cherry-pick -m 1 &lt;commitHash&gt;
+2
+3
+</pre></td><td class="rouge-code"><pre>          A---B---C feature
+         /
+D---E---F master
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>上面命令表示，Cherry pick 采用提交<code class="language-plaintext highlighter-rouge">commitHash</code>来自编号1的父分支的变动。</p>
-
-<p>一般来说，1号父分支是接受变动的分支（<strong>the branch being merged into</strong>），2号父分支是作为变动来源的分支（<strong>the branch being merged from</strong>）。</p>
-
-<h2 id="4-代码冲突">4. 代码冲突</h2>
-
-<p>如果操作过程中发生代码冲突，Cherry pick 会停下来，让用户决定如何继续操作。</p>
-
-<p>（1）<code class="language-plaintext highlighter-rouge">--continue</code></p>
-
-<p>用户解决代码冲突后，第一步将修改的文件重新加入暂存区（<code class="language-plaintext highlighter-rouge">git add .</code>），第二步使用下面的命令，让 <strong>Cherry pick</strong> 过程继续执行。</p>
+<p>要把 feature 合并到 master 中，执行以下命令：</p>
 
 <div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ git cherry-pick --continue
+2
+</pre></td><td class="rouge-code"><pre>$ git checkout master
+$ git merge feature
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>（2）<code class="language-plaintext highlighter-rouge">--abort</code></p>
-
-<p>发生代码冲突后，放弃合并，回到操作前的样子。</p>
-
-<p>（3）<code class="language-plaintext highlighter-rouge">--quit</code></p>
-
-<p>发生代码冲突后，退出 <strong>Cherry pick</strong>，但是不回到操作前的样子。</p>
-
-<h2 id="5-移到另一个代码库">5. 移到另一个代码库</h2>
-
-<p><strong>Cherry pick</strong> 也支持转移另一个代码库的提交，方法是先将该库加为远程仓库。</p>
+<p>结果就会变成：</p>
 
 <div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ git remote add target git://gitUrl
+2
+3
+</pre></td><td class="rouge-code"><pre>          A---B---C feature
+         /         master
+D---E---F 
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>上面命令添加了一个远程仓库<code class="language-plaintext highlighter-rouge">target</code>。</p>
+<p><img data-proofer-ignore data-src="/assets/img//ff.gif" alt="@700x0" /></p>
 
-<p>然后，将远程代码抓取到本地：</p>
+<p>因为 feature 就在 master 的下游，所以直接移动了 master 的指针，master 和 feature 都指向了 C。而如果执行了 <code class="language-plaintext highlighter-rouge">git merge --no-ff feature</code> 的话，是下面的结果：</p>
 
 <div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ git fetch target
+2
+3
+</pre></td><td class="rouge-code"><pre>          A---B---C feature
+         /         \
+D---E---F-----------G master
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>上面命令将远程代码仓库抓取到本地。</p>
+<p><img data-proofer-ignore data-src="/assets/img//noff.gif" alt="@700x0" /></p>
 
-<p>接着，检查一下要从远程仓库转移的提交，获取它的哈希值。</p>
+<p>由于 <code class="language-plaintext highlighter-rouge">--no-ff</code> 禁止了快进，所以会生成一个新的提交，master 指向 G。</p>
 
-<div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ git log target/master
+<h2 id="3-小结">3. 小结</h2>
+
+<p>从合并后的代码来看，结果其实是一样的，区别就在于 –no-ff 会让 Git 生成一个新的提交对象。</p>
+
+<p>为什么要这样？通常我们把 master 作为主分支，上面存放的都是比较稳定的代码，提交频率也很低，而 feature 是用来开发特性的，上面会存在许多零碎的提交，快进式合并会把 feature 的提交历史混入到 master 中，搅乱 master 的提交历史。</p>
+
+<p>所以如果你根本不在意提交历史，也不爱管 master 干不干净，那么 –no-ff 其实没什么用。</p>
+
+<p>不过，如果某一次 master 出现了问题，你需要回退到上个版本的时候，比如上例，<strong>你就会发现退一个版本到了 B，而不是想要的 F，因为 feature 的历史合并进了 master 里</strong>。</p>
+
+<h2 id="4-相关问题">4. 相关问题</h2>
+
+<h3 id="pulling-without-specifying-how-to-reconcile-divergent-branches-is-discouraged">Pulling without specifying how to reconcile divergent branches is discouraged</h3>
+
+<p><img data-proofer-ignore data-src="/assets/img//1615186816972.png" alt="@600x0" /></p>
+
+<blockquote>
+  <p>In its default mode, <code class="language-plaintext highlighter-rouge">git pull</code> is shorthand for <code class="language-plaintext highlighter-rouge">git fetch</code> followed by <code class="language-plaintext highlighter-rouge">git merge</code> FETCH_HEAD.</p>
+</blockquote>
+
+<p>When you do a <code class="language-plaintext highlighter-rouge">git pull origin master</code></p>
+
+<p>git pull performs a merge, which often creates a merge commit. Therefore, by default, pulling from the remote is NOT a harmless operation: it can create a new commit sha that didn’t exist before. This behavior can confuse a user, because what feels like it should be a harmless download operation actually changes the commit history in unpredictable ways.</p>
+
+<p>To avoid this, you need:</p>
+
+<div lang="vim" class="language-vim highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>git pull <span class="p">--</span><span class="nb">ff</span><span class="p">-</span><span class="k">only</span>
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>最后，使用<code class="language-plaintext highlighter-rouge">git cherry-pick</code>命令转移提交。</p>
+<p>or not? read on to see which one fits your needs)</p>
 
-<div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ git cherry-pick &lt;commitHash&gt;
+<p>With <code class="language-plaintext highlighter-rouge">git pull --ff-only</code>, Git will update your branch only if it can be “fast-forwarded” without creating new commits. If this can’t be done, <code class="language-plaintext highlighter-rouge">git pull --ff-only</code> simply aborts with an error message.</p>
+
+<p>You can configure your Git client to always use <code class="language-plaintext highlighter-rouge">--ff-only</code> by default, so you get this behavior even if you forget the command-line flag:</p>
+
+<div lang="vim" class="language-vim highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>git config <span class="p">--</span>global pull<span class="p">.</span><span class="nb">ff</span> <span class="k">only</span>
 </pre></td></tr></tbody></table></code></div></div>
 
-<h2 id="6-references--connection">6. References &amp; Connection</h2>
+<p>Note: The <code class="language-plaintext highlighter-rouge">--global</code> flag applies the change for all repositories on your machine. If you want this behaviour only for the repository you’re in, omit the flag.</p>
+
+<p>Taken from <a href="https://blog.sffc.xyz/post/185195398930/why-you-should-use-git-pull-ff-only">here</a></p>
+
 <ol>
-  <li><a href="http://www.ruanyifeng.com/blog/2020/04/git-cherry-pick.html">git cherry-pick 教程 - 阮一峰的博客</a></li>
+  <li><a href="https://stackoverflow.com/questions/62653114/how-to-deal-with-this-git-warning-pulling-without-specifying-how-to-reconcile">How to deal with this git warning? “Pulling without specifying how to reconcile divergent branches is discouraged”</a></li>
 </ol>
 
-<h2 id="7-文档修订记录">7. 文档修订记录</h2>
+<h2 id="5-references--connection">5. References &amp; Connection</h2>
+<ol>
+  <li>
+    <div class="table-wrapper"><table>
+      <tbody>
+        <tr>
+          <td>[工具系列</td>
+          <td>Git 合并时 –no-ff 的作用 –开源技术小栈的微信公众号](https://mp.weixin.qq.com/s/zME846v1ZyU3ee476phyIQ)</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </li>
+  <li><a href="https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1?signin=true">CS Visualized: Useful Git Commands –Lydia Hallie</a></li>
+  <li><a href="https://www.cnblogs.com/sky-heaven/p/6000494.html">10 个迅速提升你 Git 水平的提示【转】</a></li>
+  <li><a href="https://www.cnblogs.com/hongdada/p/9549506.html">Git 命令收集</a></li>
+</ol>
+
+<h2 id="6-文档修订记录">6. 文档修订记录</h2>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -860,14 +943,7 @@
       <td style="text-align: left">V1.0</td>
       <td style="text-align: left">建立</td>
       <td style="text-align: left">文档初建</td>
-      <td style="text-align: left">2020-5-7</td>
-      <td style="text-align: left">Lee</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">V1.1</td>
-      <td style="text-align: left">增加</td>
-      <td style="text-align: left">补充完整篇文章</td>
-      <td style="text-align: left">2020-5-15</td>
+      <td style="text-align: left">2021-3-8</td>
       <td style="text-align: left">Lee</td>
     </tr>
   </tbody>
@@ -909,9 +985,6 @@
           <a href="/tags/git%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B/"
             class="post-tag no-text-decoration" >Git工作流程</a>
           
-          <a href="/tags/%E9%98%AE%E4%B8%80%E5%B3%B0/"
-            class="post-tag no-text-decoration" >阮一峰</a>
-          
           <a href="/tags/github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/"
             class="post-tag no-text-decoration" >Github入门笔记</a>
           
@@ -943,19 +1016,19 @@
 
     
       
-        <a href="https://twitter.com/intent/tweet?text=Github入门笔记-PartC-cherry-pick - Lee.Wang&url=https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/" data-toggle="tooltip" data-placement="top"
+        <a href="https://twitter.com/intent/tweet?text=Github入门笔记-PartD  Git Merge 参数解释 - Lee.Wang&url=https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge-%E5%8F%82%E6%95%B0%E8%A7%A3%E9%87%8A/" data-toggle="tooltip" data-placement="top"
           title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
           <i class="fa-fw fab fa-twitter"></i>
         </a>
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?title=Github入门笔记-PartC-cherry-pick - Lee.Wang&u=https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/" data-toggle="tooltip" data-placement="top"
+        <a href="https://www.facebook.com/sharer/sharer.php?title=Github入门笔记-PartD  Git Merge 参数解释 - Lee.Wang&u=https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge-%E5%8F%82%E6%95%B0%E8%A7%A3%E9%87%8A/" data-toggle="tooltip" data-placement="top"
           title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
           <i class="fa-fw fab fa-facebook-square"></i>
         </a>
     
       
-        <a href="https://telegram.me/share?text=Github入门笔记-PartC-cherry-pick - Lee.Wang&url=https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/" data-toggle="tooltip" data-placement="top"
+        <a href="https://telegram.me/share?text=Github入门笔记-PartD  Git Merge 参数解释 - Lee.Wang&url=https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge-%E5%8F%82%E6%95%B0%E8%A7%A3%E9%87%8A/" data-toggle="tooltip" data-placement="top"
           title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
           <i class="fa-fw fab fa-telegram"></i>
         </a>
@@ -1499,46 +1572,46 @@
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
   
 
   
@@ -1608,6 +1681,48 @@
     <h3 class="pt-2 mt-1 mb-4 ml-1"
       data-toc-skip>相关文章</h3>
     <div class="card-deck mb-4">
+    
+      
+      
+      <div class="card">
+        <a href="/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: /assets/js/_utils/timeage.js
+-->
+
+
+
+
+
+
+<span class="timeago small"
+  >05-07<i class="unloaded">2021-05-07T14:06:43+08:00</i>
+</span>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Github入门笔记-PartC-cherry-pick</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                Github入门笔记-PartC-cherry-pick
+
+对于多分支的代码库，将代码从一个分支转移到另一个分支是常见需求。
+
+这时分两种情况。一种情况是，你需要另一个分支的所有代码变动，那么就采用合并（git merge）。另一种情况是，你只需要部分代码变动（某几个提交），这时可以采用 Cherry pick。
+
+
+  Github入门笔记-PartC  git cherry-pick 教...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
     
       
       
@@ -1698,51 +1813,6 @@
         </a>
       </div>
     
-      
-      
-      <div class="card">
-        <a href="/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge-%E5%8F%82%E6%95%B0%E8%A7%A3%E9%87%8A/">
-          <div class="card-body">
-            <!--
-  Date format snippet
-  See: /assets/js/_utils/timeage.js
--->
-
-
-
-
-
-
-<span class="timeago small"
-  >08-03<i class="unloaded">2021-08-03T12:06:43+08:00</i>
-</span>
-
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Github入门笔记-PartD  Git Merge 参数解释</h3>
-            <div class="text-muted small">
-              <p>
-                
-
-
-
-
-
-                摘录：《Github入门与实践》 4.2章节。 Github入门笔记， Git Merge的参数解释。
-
-
-  Github入门笔记-PartD  Git Merge 参数解释
-    
-      1. 基本操作
-      2.  Git 合并时 --no-ff 的作用
-      3. 小结
-      4. 相关问题
-        
-          Pulling withou...
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-    
     </div> <!-- .card-deck -->
   </div> <!-- #related-posts -->
 
@@ -1754,17 +1824,17 @@
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <a href="/posts/enable-google-pv/" class="btn btn-outline-primary"
+  <a href="/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartB/" class="btn btn-outline-primary"
     prompt="上一篇">
-    <p>Enable Google Page Views</p>
+    <p>Github入门笔记-PartB</p>
   </a>
   
 
   
-  <a href="/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartA/" class="btn btn-outline-primary"
+  <span class="btn btn-outline-primary disabled"
     prompt="下一篇">
-    <p>Github入门笔记-PartA</p>
-  </a>
+    <p>-</p>
+  </span>
   
 
 </div>
