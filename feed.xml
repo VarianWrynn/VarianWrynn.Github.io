@@ -4,7 +4,7 @@
   <id>https://varianwrynn.github.io/</id>
   <title>Lee.Wang</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-08-05T15:30:12+08:00</updated>
+  <updated>2021-08-05T15:35:04+08:00</updated>
   <author>
     <name>Varian.Wrynn</name>
     <uri>https://varianwrynn.github.io/</uri>
@@ -139,6 +139,66 @@ Open Visual Studi...
 
   
   <entry>
+    <title>Github入门笔记-PartC-cherry-pick</title>
+    <link href="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/" rel="alternate" type="text/html" title="Github入门笔记-PartC-cherry-pick" />
+    <published>2021-08-02T12:06:43+08:00</published>
+  
+    <updated>2021-08-02T12:06:43+08:00</updated>
+  
+    <id>https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/</id>
+    <content src="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/" />
+    <author>
+      <name>Lee （摘自 阮一峰的博客）</name>
+    </author>
+
+  
+    
+    <category term="技术" />
+    
+    <category term="Github" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Github入门笔记-PartC-cherry-pick
+
+对于多分支的代码库，将代码从一个分支转移到另一个分支是常见需求。
+
+这时分两种情况。一种情况是，你需要另一个分支的所有代码变动，那么就采用合并（git merge）。另一种情况是，你只需要部分代码变动（某几个提交），这时可以采用 Cherry pick。
+
+
+  Github入门笔记-PartC  git cherry-pick 教程
+    
+      1. 基本用法
+      2. 转移多个提交
+      3. 配置项
+      4. 代码冲突
+      5. 移到另一个代码库
+      6. References &amp;amp; Connection
+      7. 文档修订记录
+    
+  
+
+
+
+
+1. 基本用法
+
+git cherry-pick命令的作用，就是将指定的提交（commit）应用于其他分支...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Github入门笔记-PartB</title>
     <link href="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartB/" rel="alternate" type="text/html" title="Github入门笔记-PartB" />
     <published>2021-08-01T12:06:43+08:00</published>
@@ -199,9 +259,9 @@ Open Visual Studi...
   <entry>
     <title>Github入门笔记-PartA</title>
     <link href="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartA/" rel="alternate" type="text/html" title="Github入门笔记-PartA" />
-    <published>2021-08-01T12:06:43+08:00</published>
+    <published>2021-07-31T12:06:43+08:00</published>
   
-    <updated>2021-08-01T12:06:43+08:00</updated>
+    <updated>2021-07-31T12:06:43+08:00</updated>
   
     <id>https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartA/</id>
     <content src="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartA/" />
@@ -243,66 +303,6 @@ Open Visual Studi...
       3. Developers化学反应- Pull Request
         
  ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Github入门笔记-PartC-cherry-pick</title>
-    <link href="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/" rel="alternate" type="text/html" title="Github入门笔记-PartC-cherry-pick" />
-    <published>2021-05-07T14:06:43+08:00</published>
-  
-    <updated>2021-05-07T14:06:43+08:00</updated>
-  
-    <id>https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/</id>
-    <content src="https://varianwrynn.github.io/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/" />
-    <author>
-      <name>Lee （摘自 阮一峰的博客）</name>
-    </author>
-
-  
-    
-    <category term="技术" />
-    
-    <category term="Github" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Github入门笔记-PartC-cherry-pick
-
-对于多分支的代码库，将代码从一个分支转移到另一个分支是常见需求。
-
-这时分两种情况。一种情况是，你需要另一个分支的所有代码变动，那么就采用合并（git merge）。另一种情况是，你只需要部分代码变动（某几个提交），这时可以采用 Cherry pick。
-
-
-  Github入门笔记-PartC  git cherry-pick 教程
-    
-      1. 基本用法
-      2. 转移多个提交
-      3. 配置项
-      4. 代码冲突
-      5. 移到另一个代码库
-      6. References &amp;amp; Connection
-      7. 文档修订记录
-    
-  
-
-
-
-
-1. 基本用法
-
-git cherry-pick命令的作用，就是将指定的提交（commit）应用于其他分支...
     </summary>
   
 
