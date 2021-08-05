@@ -4,7 +4,7 @@
   <id>https://varianwrynn.github.io/</id>
   <title>Lee.Wang</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-08-05T12:58:17+08:00</updated>
+  <updated>2021-08-05T13:39:40+08:00</updated>
   <author>
     <name>Varian.Wrynn</name>
     <uri>https://varianwrynn.github.io/</uri>
@@ -34,11 +34,9 @@
 
   
     
-    <category term="Blogging" />
+    <category term="技术" />
     
-    <category term="Tutorial" />
-    
-    <category term="读书笔记组" />
+    <category term="Github" />
     
   
 
@@ -94,11 +92,9 @@
 
   
     
-    <category term="Blogging" />
+    <category term="技术" />
     
-    <category term="Tutorial" />
-    
-    <category term="读书笔记组" />
+    <category term="Github" />
     
   
 
@@ -149,11 +145,9 @@
 
   
     
-    <category term="Blogging" />
+    <category term="技术" />
     
-    <category term="Tutorial" />
-    
-    <category term="读书笔记组" />
+    <category term="Github" />
     
   
 
