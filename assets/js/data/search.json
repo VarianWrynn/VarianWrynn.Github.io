@@ -1,9 +1,24 @@
 [
   
   {
+    "title": "Github入门笔记-PartD  Git Merge 参数解释",
+    "url": "/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartD-Git_Merge-%E5%8F%82%E6%95%B0%E8%A7%A3%E9%87%8A/",
+    "categories": "技术, Github",
+    "tags": "GitHub, GitHub 101, GitHub 漫游指南, Git工作流程, Github入门笔记",
+    "date": "2021-08-03 12:06:43 +0800",
+    
+
+
+
+
+
+    "snippet": "摘录：《Github入门与实践》 4.2章节。 Github入门笔记， Git Merge的参数解释。  Github入门笔记-PartD  Git Merge 参数解释          1. 基本操作      2.  Git 合并时 --no-ff 的作用      3. 小结      4. 相关问题                  Pulling without specifying how to reconcile divergent branches is discouraged                    5. References &amp;amp; Con..."
+  },
+  
+  {
     "title": "Github入门笔记-PartB",
     "url": "/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartB/",
-    "categories": "Blogging, Tutorial, 读书笔记组",
+    "categories": "技术, Github",
     "tags": "GitHub, GitHub 101, GitHub 漫游指南, Git工作流程, Github入门笔记",
     "date": "2021-08-01 12:06:43 +0800",
     
@@ -18,7 +33,7 @@
   {
     "title": "Github入门笔记-PartA",
     "url": "/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartA/",
-    "categories": "Blogging, Tutorial, 读书笔记组",
+    "categories": "技术, Github",
     "tags": "GitHub, GitHub 101, GitHub 漫游指南, Git工作流程, Github入门笔记",
     "date": "2021-08-01 12:06:43 +0800",
     
@@ -33,7 +48,7 @@
   {
     "title": "Github入门笔记-PartC-cherry-pick",
     "url": "/posts/Github%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-PartC-cherry-pick/",
-    "categories": "Blogging, Tutorial, 读书笔记组",
+    "categories": "技术, Github",
     "tags": "GitHub, GitHub 101, GitHub 漫游指南, Git工作流程, 阮一峰, Github入门笔记",
     "date": "2021-05-07 14:06:43 +0800",
     

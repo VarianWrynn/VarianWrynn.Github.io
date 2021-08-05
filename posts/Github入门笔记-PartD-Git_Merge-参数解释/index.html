@@ -845,7 +845,7 @@ $ git merge feature
 D---E---F 
 </pre></td></tr></tbody></table></code></div></div>
 
-<p><img data-proofer-ignore data-src="/assets/img//ff.gif" alt="@700x0" /></p>
+<p><img data-proofer-ignore data-src="/assets/img/ff.gif" alt="@700x0" /></p>
 
 <p>因为 feature 就在 master 的下游，所以直接移动了 master 的指针，master 和 feature 都指向了 C。而如果执行了 <code class="language-plaintext highlighter-rouge">git merge --no-ff feature</code> 的话，是下面的结果：</p>
 
@@ -857,7 +857,7 @@ D---E---F
 D---E---F-----------G master
 </pre></td></tr></tbody></table></code></div></div>
 
-<p><img data-proofer-ignore data-src="/assets/img//noff.gif" alt="@700x0" /></p>
+<p><img data-proofer-ignore data-src="/assets/img/noff.gif" alt="@700x0" /></p>
 
 <p>由于 <code class="language-plaintext highlighter-rouge">--no-ff</code> 禁止了快进，所以会生成一个新的提交，master 指向 G。</p>
 
@@ -875,7 +875,7 @@ D---E---F-----------G master
 
 <h3 id="pulling-without-specifying-how-to-reconcile-divergent-branches-is-discouraged">Pulling without specifying how to reconcile divergent branches is discouraged</h3>
 
-<p><img data-proofer-ignore data-src="/assets/img//1615186816972.png" alt="@600x0" /></p>
+<p><img data-proofer-ignore data-src="/assets/img/1615186816972.png" alt="@600x0" /></p>
 
 <blockquote>
   <p>In its default mode, <code class="language-plaintext highlighter-rouge">git pull</code> is shorthand for <code class="language-plaintext highlighter-rouge">git fetch</code> followed by <code class="language-plaintext highlighter-rouge">git merge</code> FETCH_HEAD.</p>
